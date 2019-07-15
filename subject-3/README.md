@@ -31,6 +31,9 @@
 9. RDS 的还原。
    1. 基于 MySQL dump/restore 的还原。
    2. 基于 Snapshot 的还原。
+10. 掌握 RDS replication 的使用。
+    1. 通过分区和分片提升 RDS 的性能。
+    2. 通过不同的集群策略和自动化手段对数据库进行及时维护。
 
 ## 相关 AWS 的组件/服务知识点
 
