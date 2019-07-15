@@ -59,27 +59,27 @@
 
 ## 相关 AWS 的组件/服务知识点
 
-## Route 53
+### Route 53
 
 1. Alias 
 2. A 记录
 3. TTL
 
-## Security Group
+### Security Group
 
 1. Inbound / outbund
 2. 地址 / SG / MyIP
 3. 端口号。
 4. Security Group 的组合和继承。
 
-## ALB
+### ALB
 
 1. 什么是 ALB
 2. ALB 的端口映射
 3. ALB 的证书绑定
 4. ALB 和 ASG 的绑定
 
-## EC2
+### EC2
 
 1. 最小配置，哪些是 Required 参数。
 2. 默认 AMI。
@@ -90,24 +90,24 @@
 7. EC2 的生命周期
 8. 通过已经存在的 EC2 构建 AMI 镜像
 
-## ASG
+### ASG
 
 1. Launch Configuration
 2. ASG policy
 3. ASG 的日志
 
-## ASG policy
+### ASG policy
 
 1. 检测端口
 2. 检测周期
 3. 检测协议
 
-## Launch Configuration
+### Launch Configuration
 
 1. 自动初始化 EC2 的配置。
 2. EC2 的 Provision 脚本。
 
-## Certificate Manager
+### Certificate Manager
 
 1. HTTPS 证书分Region。
 2. HTTPS 证书有效期。
