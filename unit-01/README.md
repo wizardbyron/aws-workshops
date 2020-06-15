@@ -1,4 +1,4 @@
-# 科目一：构建一个静态 Web 应用
+# 单元一：构建一个静态 Web 应用
 
 ## 课程场景
 
@@ -30,8 +30,6 @@
 3. AWS 相关服务的计费方式。
 4. 了解静态站点生成。
 
-
-
 ## 相关 AWS 的组件/服务知识点
 
 ### IAM
@@ -52,13 +50,11 @@
    2. MFA如何保证安全
 6. no password 的用户
    1. 为了安全
-7. accesskey 
+7. accesskey
    1. 只有两个
    2. 删除
    3. 注销
    4. 安全性(不要传到github里)
-
-
 
 ### Route 53
 
@@ -74,16 +70,12 @@
    1. 用来做什么
 6. 关联 S3
 
-
-
 ### S3
 
 1. AWS 全球唯一
 2. 对象存储
 3. Static Web Hosting
    1. S3 配置
-
-
 
 ### AWS-CLI
 
@@ -92,8 +84,6 @@
 3. 采用 cli 上传下载文件
 4. 采用 cli 操作 cloudformation
 
-
-
 ### CloudFormation
 
 1. 通过上传 cloudformation template 应用。
@@ -101,3 +91,9 @@
 3. 通过 cli 上传 cloudformation
 4. Stack 的管理。
 5. 用 cloudformation 构建完整的基础设施
+
+### Terraform
+
+1. Terraform 简介
+2. Terraform AWS provider
+3. 采用 Terraform 实现本课内容
